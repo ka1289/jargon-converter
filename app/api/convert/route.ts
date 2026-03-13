@@ -13,7 +13,7 @@ export async function POST(req: NextRequest) {
   }
 
   const completion = await client.chat.completions.create({
-    model: "gpt-4o",
+    model: "gpt-5-nano",
     messages: [
       {
         role: "system",
